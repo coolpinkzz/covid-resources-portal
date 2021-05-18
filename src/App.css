@@ -1,0 +1,122 @@
+input[type=text]:focus , input[type=tel]:focus{
+
+    outline: 0 !important;
+    
+}
+body{
+          font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+    letter-spacing: normal;
+    background-color: #F0F8FF;  
+    overflow-x: hidden;  
+    overflow-y:scroll;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+h1,h2,h3,h4 , .btn-warning{
+    color: indigo;
+    font-weight: bold;
+}
+.btn-warning{
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.parentform{
+ width: 50%;
+ background-color: white;
+ margin: 20px auto;
+  border: solid 2px white;
+  padding: 25px 50px 25px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+input[type=text], input[type=tel] , select ,  textarea{
+    background-color: transparent !important;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+input[type=tel]{
+    margin: 10px;
+    width: 25%;
+    height: 30px;
+    font-size: 20px;
+   
+}
+label{
+  font-size: 16px;
+}
+
+.vol{
+    background: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ width: 70%;
+ border: solid 2px white;
+ height: auto;
+ margin: auto;
+ text-align: center;
+ padding: 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+ 
+}
+
+@media screen and (max-width:960px){
+
+    .prefix{
+        font-size: 16px  !important;
+    }
+.head{
+        text-align: center;
+    }
+    h1{
+        font-size: 18px;
+    }
+  h2{
+    font-size: 16px;
+  }
+
+.parentform{
+    width: 90%;
+    padding: 15px 25px 15px 25px;
+}
+.vol{
+    width: 90%;
+    padding: 20px;
+}
+input[type=tel] ,input[type=text] {
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+}
+
+@media screen and (max-width:480px){
+    input[type=tel] ,input[type=text]{
+    width: 98%;
+    height: 40px;
+    font-size: 16px;
+   
+}
+.form-captcha{
+    width: 10px;
+}
+.parentform{
+    width: 95%;
+    padding: 5px 15px 5px 15px;
+}
+
+
+}
